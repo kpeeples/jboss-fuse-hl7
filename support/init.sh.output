@@ -1,0 +1,160 @@
+[kpeeples@kpeeples-laptop installs]$ ls
+jboss-fuse-full-6.0.0.redhat-024.zip  README
+[kpeeples@kpeeples-laptop installs]$ cd ..
+[kpeeples@kpeeples-laptop fuse-eip-quickstart]$ ./init.sh
+
+Setting up the Red Hat JBoss Fuse EIP Demo environment...
+
+JBoss Fuse EIP Demo sources are present...
+
+  - creating the demo home directory...
+
+Unpacking new JBoss Fuse...
+
+  - making sure 'fuse' for server is executable...
+
+chmod: cannot access ‘./target/jboss-fuse-6.0/bin/fuse’: No such file or directory
+Now going to build the project.
+
+[INFO] Scanning for projects...
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/fuse/examples/project/6.0.0.redhat-024/project-6.0.0.redhat-024.pom
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/jboss/fuse/examples/project/6.0.0.redhat-024/project-6.0.0.redhat-024.pom
+Downloaded: http://repo.fusesource.com/nexus/content/repositories/releases/org/jboss/fuse/examples/project/6.0.0.redhat-024/project-6.0.0.redhat-024.pom (4 KB at 4.8 KB/sec)
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/fusesource/fuse-project/7.2.0.redhat-024/fuse-project-7.2.0.redhat-024.pom
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/fusesource/fuse-project/7.2.0.redhat-024/fuse-project-7.2.0.redhat-024.pom
+Downloading: http://repo.fusesource.com/nexus/content/groups/ea/org/fusesource/fuse-project/7.2.0.redhat-024/fuse-project-7.2.0.redhat-024.pom
+Downloading: http://repo.maven.apache.org/maven2/org/fusesource/fuse-project/7.2.0.redhat-024/fuse-project-7.2.0.redhat-024.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/fusesource/fuse-project/7.2.0.redhat-024/fuse-project-7.2.0.redhat-024.pom (67 KB at 88.3 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JBoss Fuse :: Examples :: Enterprise Integration Patterns 6.0.0.redhat-024
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/apache/camel/camel-core/2.10.0.redhat-60024/camel-core-2.10.0.redhat-60024.pom
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/camel/camel-core/2.10.0.redhat-60024/camel-core-2.10.0.redhat-60024.pom
+Downloaded: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/camel/camel-core/2.10.0.redhat-60024/camel-core-2.10.0.redhat-60024.pom (22 KB at 31.5 KB/sec)
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/apache/camel/camel-parent/2.10.0.redhat-60024/camel-parent-2.10.0.redhat-60024.pom
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/camel/camel-parent/2.10.0.redhat-60024/camel-parent-2.10.0.redhat-60024.pom
+Downloaded: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/camel/camel-parent/2.10.0.redhat-60024/camel-parent-2.10.0.redhat-60024.pom (68 KB at 103.8 KB/sec)
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/apache/camel/camel/2.10.0.redhat-60024/camel-2.10.0.redhat-60024.pom
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/camel/camel/2.10.0.redhat-60024/camel-2.10.0.redhat-60024.pom
+Downloaded: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/camel/camel/2.10.0.redhat-60024/camel-2.10.0.redhat-60024.pom (41 KB at 81.4 KB/sec)
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/apache/aries/blueprint/org.apache.aries.blueprint/1.0.1.redhat-60024/org.apache.aries.blueprint-1.0.1.redhat-60024.pom
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/aries/blueprint/org.apache.aries.blueprint/1.0.1.redhat-60024/org.apache.aries.blueprint-1.0.1.redhat-60024.pom
+Downloaded: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/aries/blueprint/org.apache.aries.blueprint/1.0.1.redhat-60024/org.apache.aries.blueprint-1.0.1.redhat-60024.pom (14 KB at 27.5 KB/sec)
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/apache/aries/blueprint/blueprint/1.0.1.redhat-60024/blueprint-1.0.1.redhat-60024.pom
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/aries/blueprint/blueprint/1.0.1.redhat-60024/blueprint-1.0.1.redhat-60024.pom
+Downloaded: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/aries/blueprint/blueprint/1.0.1.redhat-60024/blueprint-1.0.1.redhat-60024.pom (9 KB at 15.9 KB/sec)
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/apache/camel/camel-core/2.10.0.redhat-60024/camel-core-2.10.0.redhat-60024.jar
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/apache/aries/blueprint/org.apache.aries.blueprint/1.0.1.redhat-60024/org.apache.aries.blueprint-1.0.1.redhat-60024.jar
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/camel/camel-core/2.10.0.redhat-60024/camel-core-2.10.0.redhat-60024.jar
+Downloading: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/aries/blueprint/org.apache.aries.blueprint/1.0.1.redhat-60024/org.apache.aries.blueprint-1.0.1.redhat-60024.jar
+Downloaded: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/aries/blueprint/org.apache.aries.blueprint/1.0.1.redhat-60024/org.apache.aries.blueprint-1.0.1.redhat-60024.jar (435 KB at 146.4 KB/sec)
+Downloaded: http://repo.fusesource.com/nexus/content/repositories/releases/org/apache/camel/camel-core/2.10.0.redhat-60024/camel-core-2.10.0.redhat-60024.jar (2185 KB at 341.3 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ eip ---
+[INFO] Deleting /home/kpeeples/repos/kpeeples/fuse-eip-quickstart/projects/fuse-eip-quickstart/target
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.4:cleanVersions (cleanVersions) @ eip ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (filter) @ eip ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ eip ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ eip ---
+[INFO] Compiling 1 source file to /home/kpeeples/repos/kpeeples/fuse-eip-quickstart/projects/fuse-eip-quickstart/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ eip ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kpeeples/repos/kpeeples/fuse-eip-quickstart/projects/fuse-eip-quickstart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ eip ---
+[INFO] Compiling 1 source file to /home/kpeeples/repos/kpeeples/fuse-eip-quickstart/projects/fuse-eip-quickstart/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ eip ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ eip ---
+[INFO] Building jar: /home/kpeeples/repos/kpeeples/fuse-eip-quickstart/projects/fuse-eip-quickstart/target/eip-6.0.0.redhat-024.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.5:attach-artifact (attach-artifacts) @ eip ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ eip ---
+[INFO] Installing /home/kpeeples/repos/kpeeples/fuse-eip-quickstart/projects/fuse-eip-quickstart/target/eip-6.0.0.redhat-024.jar to /home/kpeeples/.m2/repository/org/jboss/fuse/examples/eip/6.0.0.redhat-024/eip-6.0.0.redhat-024.jar
+[INFO] Installing /home/kpeeples/repos/kpeeples/fuse-eip-quickstart/projects/fuse-eip-quickstart/pom.xml to /home/kpeeples/.m2/repository/org/jboss/fuse/examples/eip/6.0.0.redhat-024/eip-6.0.0.redhat-024.pom
+[INFO] Installing /home/kpeeples/repos/kpeeples/fuse-eip-quickstart/projects/fuse-eip-quickstart/target/classes/features.xml to /home/kpeeples/.m2/repository/org/jboss/fuse/examples/eip/6.0.0.redhat-024/eip-6.0.0.redhat-024-features.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 19.805s
+[INFO] Finished at: Thu Apr 11 16:02:31 EDT 2013
+[INFO] Final Memory: 20M/229M
+[INFO] ------------------------------------------------------------------------
+
+To get started see the README.md file:
+
+fuse-eip-quickstart
+===================
+
+Fuse ESB Enterprise Enterprise Integration Patterns Quickstart.  This quickstart will help you easily setup a quickstart using the latest version of JBoss Fuse and JBoss Developer Studio.
+
+Step 1 – View the README in 'installs' directory
+
+Step 2 – Add the JBoss Fuse product from the Red Hat Customer Support Portal or JBoss.org
+Login to RHN or jboss.org
+https://www.jboss.org/products/fuse.html
+https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&product=jboss.fuse&productChanged=yes
+update the zip filename in init.sh in the FUSE_BIN variable
+
+Step 3 - Run 'init.sh' & read output
+sample posted to init.sh.output under support
+
+Step 4 - Setup JBDS for project import
+Indicate where to get the JBDS and the tool plugin
+
+Step 5 - Add the JBoss Fuse server
+ 
+Step 6 - Import project
+
+Step 7 - Start JBoss Fuse
+ 
+[kpeeples@localhost bin]$ ./fuse Please wait while JBoss Fuse is loading... 100% [=================================================================]
+JBoss Fuse (6.0.0.redhat-015) http://www.redhat.com/products/jbossenterprisemiddleware/fuse/
+Hit '' for a list of available commands and '[cmd] --help' for help on a specific command. Hit '' or 'osgi:shutdown' to shutdown JBoss Fuse.
+JBossFuse:karaf@root>
+
+Step 8 - When the JBoss Fuse console appears, install the Fuse Application Bundle (FAB) 
+
+JBossFuse:karaf@root>osgi:install -s fab:mvn:org.jboss.fuse.examples/eip/6.0.0.redhat-015
+
+Step 9 -  As soon as the Camel route has been started, you will see a directory `work/eip/input` in your JBoss Fuse installation.
+
+Step 10 - Copy the file you find in this example's `src/test/data` directory to the newly created `work/eip/input` directory.
+
+Step 11 -  Wait a few moment and you will find multiple files organized by geographical region under
+`work/eip/output':
+
+** `2012_0003.xml` and `2012_0005.xml` in `work/eip/output/AMER`
+** `2012_0020.xml` in `work/eip/output/APAC`
+** `2012_0001.xml`, `2012_0002.xml` and `2012_0004.xml` in `work/eip/output/EMEA`
+
+Step 12 -  Use `log:display` on the ESB shell to check out the business logging.
+
+        [main]    Processing orders.xml
+        [wiretap]  Archiving orders.xml
+        [splitter] Shipping order 2012_0001 to region EMEA
+        [splitter] Shipping order 2012_0002 to region EMEA
+        [filter]   Order 2012_0002 is an order for more than 100 animals
+
+References:
+
+
+
+Red Hat JBoss Fuse EIP Demo 6.0.0 Setup Completed.
+

@@ -1,0 +1,11 @@
+18:35:50,229 | INFO  | //work/eip/input | mainRoute                        | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [main]    Processing orders.xml
+18:35:50,235 | INFO  | ead #2 - WireTap | wiretapRoute                     | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [wiretap]  Archiving orders.xml
+18:35:50,268 | INFO  | //work/eip/input | splitterRoute                    | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [splitter] Shipping order 2012_0001 to region EMEA
+18:35:50,325 | INFO  | //work/eip/input | splitterRoute                    | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [splitter] Shipping order 2012_0002 to region EMEA
+18:35:50,369 | INFO  | //work/eip/input | filterRoute                      | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [filter]   Order 2012_0002 is an order for more than 100 animals
+18:35:50,373 | INFO  | //work/eip/input | splitterRoute                    | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [splitter] Shipping order 2012_0003 to region AMER
+18:35:50,412 | INFO  | //work/eip/input | filterRoute                      | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [filter]   Order 2012_0003 is an order for more than 100 animals
+18:35:50,415 | INFO  | //work/eip/input | splitterRoute                    | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [splitter] Shipping order 2012_0004 to region EMEA
+18:35:50,456 | INFO  | //work/eip/input | splitterRoute                    | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [splitter] Shipping order 2012_0005 to region AMER
+18:35:50,497 | INFO  | //work/eip/input | splitterRoute                    | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [splitter] Shipping order 2012_0020 to region APAC
+18:35:50,539 | INFO  | //work/eip/input | mainRoute                        | 130 - org.apache.camel.camel-core - 2.10.0.redhat-60024 | [main]    Done processing orders.xml
