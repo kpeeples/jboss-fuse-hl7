@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-base-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-examples-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-hl7overhttp-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-structures-v21-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-structures-v22-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-structures-v23-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-structures-v24-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-structures-v25-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-structures-v26-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-structures-v231-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/kpeeples/hapi/lib/hapi-structures-v251-2.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
